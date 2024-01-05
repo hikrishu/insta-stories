@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#card {
+    margin-top: 10px;
+    height: 400px;
+    width: 270px;
+    border-radius: 10px;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    background-image: url("https://images.unsplash.com/photo-1496203695688-3b8985780d6a?q=80&w=1895&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+}
+#storiyan {
+    height: 100px;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 1px solid #dadada;
+    padding: 12.5px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#storiyan::-webkit-scrollbar {
+    display: none;
+}
+.story {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 3px solid red;
+    display: inline-block;
+    overflow: hidden;
+
+}
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+#full-screen {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: none;
+}
+h3 {
+    margin-top: 10%;
+}
